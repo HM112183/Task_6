@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Harsh Malaviya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <p id="nameError" class="error-message"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <p id="emailError" class="error-message"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                <p id="messageError" class="error-message"></p>
+            </div>
+
+            <button type="submit" class="btn primary-btn">Send Message</button>
+
+            <div id="successMessage" class="success-message hidden" role="alert">
+                <strong>Success!</strong> Your message has been sent.
+            </div>
+        </form>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
