@@ -1,7 +1,6 @@
 # Task_6
 # Folder structure: -
 ├── index.html
-├── index.html
 ├── style.css 
 └── script.js
 
